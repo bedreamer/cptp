@@ -1,6 +1,6 @@
 # cptp
 remote data sync protocol developed by C
-
+<pre>
 protocol point define:
     member no.1: id
     member no.2: value
@@ -10,7 +10,7 @@ protocol usage:
   ========
       sigle master node and multiple slave node.
       +---------+          +---------+            +---------+
-      +  master +          + slave 1 +      ...   + slave n +
+      +  <b>master</b> +          + slave 1 +      ...   + slave n +
       +----.----+          +----.----+            +----.----+
            |                    |                      | 
      ==================================================================== BUS(RS485)
@@ -38,8 +38,8 @@ protocol usage:
   =========
       global brodcast or group brodcast
       +---------+          +---------+            +---------+            +---------+
-      +  master +          + slave 1 +            + slave n +      ...   + slave n +
-      +         +          +   G1    +            +   G1    +      ...   +   Gn    +
+      +  <b>master</b> +          + slave 1 +            + slave n +      ...   + slave n +
+      +         +          +   <b>G1</b>    +            +   <b>G1</b>    +      ...   +   Gn    +
       +----.----+          +----.----+            +----.----+            +----.----+
            |                    |                      | 
      ==================================================================== BUS(RS485)
@@ -49,3 +49,4 @@ protocol usage:
      T1:
          G1 member do some action but no any ack frame send to BUS.
   
+</pre>
