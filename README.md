@@ -1,5 +1,6 @@
 # cptp
-remote data sync protocol developed by C
+remote data sync protocol developed by C<br>
+推荐使用 [C应用程序框架/C APP FRAME](https://github.com/bedreamer/capp.git)<br>
 <pre>
 protocol point define:
     member no.1: id
