@@ -1,6 +1,7 @@
 # CPTP
 remote data sync protocol developed by C<br>
-推荐使用 [C应用程序框架/C APP FRAME](https://github.com/bedreamer/capp.git)<br>
+推荐使用:<br> [C应用程序框架/C APP FRAME](https://github.com/bedreamer/capp.git)<br>
+Demo: <br>[CPTP DOG DEVELOPED BY Python](https://github.com/bedreamer/ptpdog.git)<br>
 <pre>
 protocol point define:
     member no.1: id
