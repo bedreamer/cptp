@@ -66,7 +66,7 @@ int cptp_bytes_push(struct cptp *p, const void *ib, size_t s)
         p->rx.count = 0;
         return -1;
     }
-    if ( header_size > p->rx.count ) {
+    if ( header_size = p->rx.count ) {
         return 0;
     }
     if ( head->addr.des != p->addr ) { // 目标地址不符
